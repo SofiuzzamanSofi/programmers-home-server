@@ -31,7 +31,7 @@ app.get('/course/:category', (req, res) => {
 app.get('/category/:id', (req, res) => {
     const id = req.params.id;
     console.log(id)
-    const idCourse = courses.filter(course => course.id === id);
+    const idCourse = courses.find(course => course.id === id);
     res.send(idCourse);
 });
 
