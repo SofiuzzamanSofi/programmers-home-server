@@ -1,20 +1,266 @@
 [
     {
         "id": 1,
+        "type": "01",
         "categories": "raw",
-        "naem": "HTML",
-        "details": "basic- advanced"
+        "name": "JAVASCRIPT",
+        "details": "JavaScript is a high-level programming language that is one of the core technologies of the World Wide Web. It is used as a client-side programming language by 97.8 percent of all websites. JavaScript was originally used only to develop web browsers, but they are now used for server-side website deployments and non-web browser applications as well. Javascript was created in 1995 and was initially known as LiveScript. However, Java was a very popular language at that time, so it was advertised as a “younger brother” of Java. As it evolved over time, JavaScript became a fully independent language. Nowadays, JavaScript is often confused with Java, and although there are some similarities between them, the two languages are distinct. Also Read: Top 10 Reasons to Learn JavaScript Javascript is the most popular programming language in the world and is in high demand among various organizations. The average Java developer earns around $112,152 each year.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzNSyPYjXxHIW7OVEWE2SG1511x5ZD6GcWew&usqp=CAU"
     },
     {
         "id": 2,
-        "categories": "design",
-        "naem": "CSS",
-        "details": "basic- advanced"
+        "type": "01",
+        "categories": "raw",
+        "name": "Python",
+        "details": "Python is one of the most popular programming languages today and is easy for beginners to learn because of its readability. It is a free, open-source programming language with extensive support modules and community development, easy integration with web services, user-friendly data structures, and GUI-based desktop applications. It is a popular programming language for machine learning and deep learning applications.  Python is used to develop 2D imaging and 3D animation packages like Blender, Inkscape, and Autodesk. It has also been used to create popular video games, including Civilization IV, Vegas Trike, and Toontown. Python is used for scientific and computational applications like FreeCAD and Abacus and by popular websites like YouTube, Quora, Pinterest, and Instagram. Python developers earn average annual salaries of about $109,092.",
+        "img": "https://i.pinimg.com/originals/6a/fb/f4/6afbf45910b9b4c344737f76043d2cbc.jpg"
     },
     {
         "id": 3,
+        "type": "05",
         "categories": "raw",
-        "naem": "JAVASCRIPT",
-        "details": "basic- advanced"
+        "name": "GO",
+        "details": "Go was developed by Google in 2007 for APIs and web applications. Go has recently become one of the fastest-growing programming languages due to its simplicity, as well as its ability to handle multicore and networked systems and massive codebases. Go, also known as Golang, was created to meet the needs of programmers working on large projects. It has gained popularity among many large IT companies thanks to its simple and modern structure and syntax familiarity. Companies using Go as their programming language include Google, Uber, Twitch, Dropbox, among many others. Go is also gaining in popularity among data scientists because of its agility and performance. Go developers can earn an average annual salary of $141,654, and hitting up to $261,000. ",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLB9U4kj9pV5puZiYnext68PDCE1qLkRplZdQiEoRMqOg5WDC11W5NFNbs3O89kweLtNg&usqp=CAU"
+    },
+    {
+        "id": 4,
+        "type": "01",
+        "categories": "raw",
+        "name": "JAVA",
+        "details": "Java is one of the most popular programming languages used today. Owned by Oracle Corporation, this general-purpose programming language with its object-oriented structure has become a standard for applications that can be used regardless of platform (e.g., Mac, Windows, Android, iOS, etc.) because of its Write Once, Run Anywhere (WORA) capabilities. As a result, Java is recognized for its portability across platforms, from mainframe data centers to smartphones. Today there are more than 3 billion devices running applications built with Java. Java is widely used in web and application development as well as big data. Java is also used on the backend of several popular websites, including Google, Amazon, Twitter, and YouTube. It is also extensively used in hundreds of applications. New Java frameworks like Spring, Struts, and Hibernate are also very popular. With millions of Java developers worldwide, there are hundreds of ways to learn Java. Also, Java programmers have an extensive online community and support each other to solve problems. Java is a more complex language to learn, but experienced developers with Java coding skills are in high demand. The average Java developer earns around $109,225 each year.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrHUhuMTcS0a4AqKxLARW2kOBIK3SKo3nqBg&usqp=CAU"
+    },
+    {
+        "id": 5,
+        "type": "03",
+        "categories": "raw",
+        "name": "KOTLIN",
+        "details": "Kotlin is a general-purpose programming language originally developed and unveiled as Project Kotlin by JetBrains in 2011. The first version was officially released in 2016. It is interoperable with Java and supports functional programming languages. Kotlin is used extensively for Android apps, web application, desktop application, and server-side application development. Kotlin was built to be better than Java, and people who use this language are convinced. Most of the Google applications are based on Kotlin. Some companies using Kotlin as their programming language include Coursera, Pinterest, PostMates among many others. Kotlin developers earn an average of $136,000 a year, with the potential to earn up to $171,500.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEfEbhRz2g_pIRCtAxo4g80yPAquCQv93hCQ&usqp=CAU"
+    },
+    {
+        "id": 6,
+        "type": "03",
+        "categories": "raw",
+        "name": "PHP",
+        "details": "PHP is an open-source programming language created in 1990. Many web developers find it essential to learn PHP, as this language is used to build more than 80% of websites on the Internet, including notable sites like Facebook and Yahoo. Programmers mainly use PHP mainly to write server-side scripts. But developers can also use this language to write command-line scripts, and programmers with high-level PHP coding skills can also use it to develop desktop applications. PHP is considered a relatively easy language to learn for beginning developers. PHP professionals have access to several dedicated online communities, making it easy to get support and answers to questions. On average, PHP programmers earn average annual salaries of about $107,409.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBPazCBPk0NCAhDxkh2o92pJ7jbiHEgd-HgA&usqp=CAU"
+    },
+    {
+        "id": 7,
+        "type": "03",
+        "categories": "raw",
+        "name": "C#",
+        "details": "Developed by Microsoft, C# rose to fame in the 2000s for supporting the concepts of object-oriented programming. It is one of the most used programming languages for the .NET framework. Anders Hejlsberg, the creator of C#, says the language is more like C++ than Java. C# is best suited for applications on Windows, Android, and iOS, as it takes the help of the integrated development environment product, Microsoft Visual C++. C# is used on the back end of several popular websites like Bing, Dell, Visual Studio, and MarketWatch. C# developers earn around $111,760 per year.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2pTCL_PlssWqKsX0V6AbDpyzRnJudiNwVqA&usqp=CAU"
+    },
+    {
+        "id": 8,
+        "type": "05",
+        "categories": "raw",
+        "name": "SWIFT",
+        "details": "A few years ago, Swift made the top 10 in the monthly TIOBE Index ranking of popular programming languages. Apple developed Swift in 2014 for Linux and Mac applications. An open-source programming language that is easy to learn, Swift supports almost everything from the programming language Objective-C. Swift requires fewer coding skills compared with other programming languages, and it can be used with IBM Swift Sandbox and IBM Bluemix. Swift is used in popular iOS apps like WordPress, Mozilla Firefox, SoundCloud, and even in the game Flappy Bird. Professionals who develop iOS applications take home average annual salaries of around $106,652.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrS6Ndm9tsj_ap0vXruJsNnLD2VM3-r04AAQ&usqp=CAU"
+    },
+    {
+        "id": 9,
+        "type": "05",
+        "categories": "raw",
+        "name": "R",
+        "details": "R is an open-source language that is essentially a different version of the S language. Much of the code that developers write for S runs on R without modification. Applications built in R are used for processing statistics, including linear and nonlinear modeling, calculation, testing, visualization, and analysis. Applications coded using R can interface with a number of databases and process both structured and unstructured data. R has a moderate learning curve and is not as easy for beginners to pick up as some other languages in this article. However, like other open-source programming languages, R boasts an active online community of developers, which is always a plus when learning new coding skills. On average, R developers earn average annual salaries of about $90,940.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3rwuZ1Y9mqHvaUXuquC3yDmzSDpMbxuZLtA&usqp=CAU"
+    },
+    {
+        "id": 10,
+        "type": "04",
+        "categories": "raw",
+        "name": "RUBY",
+        "details": "If you want to start with a language that is known for being relatively simple to learn, consider Ruby. Developed in the 1990s, it was designed to have a more human-friendly syntax while still being flexible from the standpoint of its object-oriented architecture that supports procedural and functional programming notation. A web-application framework that is implemented in Ruby is Ruby on Rails (“RoR”). Ruby developers tout it for being an easy language to write in and also for the relatively short learning time required. These attributes have led to a large community of Ruby developers and a growing interest in the language among beginning developers. The average salary for a Ruby developer is around $121,000 per year.",
+        "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--jTX-RVuQ--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/i5dm7hap45ice8wwigi7.png"
+    },
+    {
+        "id": 11,
+        "type": "04",
+        "categories": "raw",
+        "name": "C & C++",
+        "details": "C is probably the oldest and popular programming language and is the root of other programming languages such as C#, Java, and JavaScript. C++ is an enhanced version of C. Many developers today skip learning C on its own, while others think learning C first provides a valuable foundation for C++ development. Both languages are widely used in computer science and programming.C and C++ developers can make use of compilers for a wide variety of platforms, making applications developed in these languages largely transportable. Both C and C++ are considered high-performance languages. As such, they are widely used in developing applications where performance is a critical issue, such as client/server applications, commercial products like Firefox and Adobe, and video games. C and C++ developers earn an average of $118,366 each year.",
+        "img": "https://i.pinimg.com/originals/b6/7e/41/b67e4116e8dc3c2650e1151f7ffc8887.jpg"
+    },
+    {
+        "id": 12,
+        "type": "04",
+        "categories": "raw",
+        "name": "MATLAB",
+        "details": "Matlab is a proprietary programming language owned by MathWorks and originally released in the id-1980s. It is built specifically for use by scientists and engineers.  Programmers use Matlab to uild machine learning and deep learning applications. Matlab-based programs enable users to analyze data, reate algorithms, process images, and verify research.   Generally, Matlab is easier to learn than other programming languages on our list. MathWorks’ website has an extensive section dedicated to answering uestions about Matlab. The average Matlab developer takes home an average salary of $100,760 each year.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa-qPDVmqYDIX_hhje7YEaQrltk5tIdAlxMw&usqp=CAU"
+    },
+    {
+        "id": 13,
+        "type": "02",
+        "categories": "raw",
+        "name": "TYPESCRIPT",
+        "details": "TypeScript is a newcomer to top programming language lists, but it’s making headway. It was developed in 2012 by Microsoft and is a typed version of JavaScript that is well suited for large code bases. TypeScript is used to create JavaScript-based projects with typing in both client-side and server-side development, making useful for catching errors and preventing systemic issues. TypeScript was named “most adopted tech” in the 2021 State of JavaScript Survey. TypeScript developers typically earn an annual average of $75,199.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpT_X8pvQbSuNNoiDTW_MAkE6jnH5bjJXXDQ&usqp=CAU"
+    },
+    {
+        "id": 14,
+        "type": "02",
+        "categories": "raw",
+        "name": "SCALA",
+        "details": "Scala is a general-purpose, type-safe Java virtual machine language that combines the best oop and functional programming languages into one special high language. Scala is ideal for reducing and removing bugs in large, complex applications. It supports both object-oriented and functional programming.  Programmers can use Scala for any task that they normally would use Java for. Scala is a complex language, but that complexity gives it a lot of flexibility. Companies that use Scala include Netflix, Twitter, and the New York Times. Programmers can use Scala for any task that they normally would use Java for. Scala is a complex language, but that complexity gives it a lot of flexibility. Companies that use Scala include Netflix, Twitter, and the New York Times.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe1ufTSLKmJ3FHQ2N4MeN-KFlVnFP09btc0w&usqp=CAU"
+    },
+    {
+        "id": 15,
+        "type": "02",
+        "categories": "Framework",
+        "name": "Spring",
+        "details": "With its concept of Dependency Injection and aspect-oriented programming features, Spring took the development world by storm. It is an open-source framework used for Enterprise applications. With Spring, developers can create loosely coupled modules where-in dependencies are handled by the framework rather than depending on the libraries in the code. Spring framework is exhaustive and covers a lot of features including security and configuration, which are easy to learn. Further, since it is the most popular web framework, you can find a lot of documentation and an active community.    With everything configured, your code will be clean and easy to comprehend.",
+        "img": "https://hackr.io/blog/uploads/images/1570190916NEL81mpkxu.jpg"
+    },
+    {
+        "id": 16,
+        "type": "06",
+        "categories": "Framework",
+        "name": "Struts",
+        "details": "Apache Struts is another robust open-source framework for web applications. It follows the MVC (Model-View-Controller) model and extends the JSP API. In a traditional servlet-JSP approach, if a user submits let’s say a form with his details, the information then goes to a servlet for  rocessing or the control goes over to next JSP (Java Server Pages - where you can write Java code in an HTML). This becomes confusing for complex applications as the ‘View’ or presentation layer should ideally not have business logic.  Struts separate the View, Controller and the Model (data) and provides the binding between each through a configuration file struts-config.xml. The controller is an ActionServlet where you can write templates for the View and the user data is maintained using ActionForm JavaBean. The Action object is responsible for forwarding the application flow. The View is maintained by a rich set of tag libraries.  Struts are easy to set up and provides much more flexibility and extensibility over the traditional MVC approach using servlets and JSP alone. It can be a good starting point for your career as a web developer.",
+        "img": "https://hackr.io/blog/uploads/images/1570190916lxHGuA7h8x.jpg"
+    },
+    {
+        "id": 17,
+        "type": "06",
+        "categories": "Framework",
+        "name": "Hibernate",
+        "details": "Though Hibernate is not a full-stack framework, it completely changed the way we looked at the database. Implementation of Java Persistence API (JPA), Hibernate is an Object-Relational-Mapping (ORM) database for Java applications. Just like SQL, queries in Hibernate are called HQL Hibernate Query Language). Hibernate directly maps Java classes to corresponding database tables and vice versa.    The main file in hibernate is the hibernate.cfg.xml file that contains information about mapping Java classes with database configuration.          Hibernate solves the two major problems with JDBC - JDBC doesn’t support object-level relationship and if you ever decide to migrate to a different database, the older queries may not work - meaning a lot of changes - i.e. time and money!        Hibernate provides an abstraction layer so that the code is loosely coupled with the database. Stuff like establishing a database connection, performing CRUD operations are taken care of by Hibernate - so developers need not implement that, hence making the code independent of the database used.     Choose one or more from these beginner and advanced courses to get a complete overview of Hibernate and JPA.",
+        "img": "https://hackr.io/blog/uploads/images/1570190916zOZk6AtLbd.jpg"
+    },
+    {
+        "id": 18,
+        "type": "06",
+        "categories": "Framework",
+        "name": "Apache Wicket",
+        "details": "If you have already worked with JSP, the learning wicket will be a cakewalk. A simple Java web frameworks, Wicket has a component-oriented structure and all you need to know is Java and HTML. Absolutely no XMLs or configuration files!he main feature of Wicket is it POJO model wherein components are simple (Plain Old) Java Objects having OOP features. These components are bundled together as reusable packages with images, buttons, forms, links, pages, containers, behaviours and more so that developers can customize them.        Wicket is light-weight and you can build applications really fast. It is also easy to unit test code written in Wicket.",
+        "img": "https://hackr.io/blog/uploads/images/1570190916N7oxA8X6Eo.jpg"
+    },
+    {
+        "id": 19,
+        "type": "07",
+        "categories": "Framework",
+        "name": "JSF (Java Server Faces)",
+        "details": "Don’t confuse JSF with JSP, which is just a text document that can have static and dynamic content. JSF is developed by Oracle as a part of the Java Enterprise Edition 7.    It is a component-based MVC framework and has reusable UI components for server-based applications. The main idea is to encapsulate various client-side technologies like CSS, JavaScript, and HTML that will allow developers to create UI without knowing any of these technologies in-depth. They can just drag and drop UI components and focus more on their presentation layer specifics.             The default templating system in JSF is the FaceLets. JSF is quite similar to Struts.   JSF can be further seamlessly integrated with AJAX-enabled components to enrich the user experience by adding Ajax events for validations and method invocations.     Check out this LinkedIn course to know more about JSF.",
+        "img": "https://hackr.io/blog/uploads/images/1570190916PlNWJFdTdn.jpg"
+    },
+    {
+        "id": 20,
+        "type": "07",
+        "categories": "Framework",
+        "name": "Dropwizard",
+        "details": "Another Java framework true to its name - wizard. This light-weight framework lets you complete your application very fast because of it's out of the box support for advanced configurations, logging, application metrics and much more. You can create RESTful web applications that give high performance, are stable and reliable.      Dropwizard is especially magical because it brings together a host of libraries like Jetty, Guava, Jersey, Jackson, and Metrics amongst many others from the Java ecosystem into one framework and gives you a light-weight and lean application.    Since there are integrated libraries for all the configurations, security and performance-related tasks, all you need to do as a developer is building your business logic.      Dropwizard is an open-source framework that is bundled with libraries and you can easily set it up with Eclipse IDE and create a simple roject to learn (Believe me, you can learn Dropwizard on your own!). The basic tutorial from Dropwizard website will help you through each step.      ",
+        "img": "https://hackr.io/blog/uploads/images/15701909167ay8Hvg6Al.jpg"
+    },
+    {
+        "id": 21,
+        "type": "07",
+        "categories": "Framework",
+        "name": "Grails",
+        "details": "Grails is an easy to learn full-stack framework much suitable for those who are just beginning their programming career. While Grails is a web framework written in Groovy programming language, it runs on Java platform and is perfectly compatible with Java syntax. This framework is based on the MVC design pattern.    Groovy is similar to Java which some more features added when compared to Java. It is very easy to learn Groovy if you already know Java. Similar to JSP, in Grails, the rendering technology is GSP (Groovy Server Pages). Creating tags for the View in Grails is simple and easy. It also uses GORM which as you might have guessed is the ORM implementation used in Grails. You can also directly use Hibernate instead of GORM. Grails has built-in support for RESTful APIs thus making it easy to create such services.  Here comes the best part - you can integrate your existing java code with Grails. If you have a mix of Groovy and Java code in your application - it will work just fine!     The best way to learn Grails is to set up your own development environment using any Java IDE like Eclipse, NetBeans etc… and follow any of these tutorials to build your first web application.",
+        "img": "https://hackr.io/blog/uploads/images/1570190916HcxR39moMk.jpg"
+    },
+    {
+        "id": 22,
+        "type": "08",
+        "categories": "Framework",
+        "name": "ATG",
+        "details": "ATG is a web commerce platform written in Java. It is a customizable and configurable framework, particularly useful for websites related to e-commerce. The product is owned by Oracle and supports both B2B and B2C applications that are complex and huge. For small scale applications, it could be costly, however. If you are getting into developing e-commerce websites, ATG is a good framework to learn and will enrich your technical as well as domain knowledge.  ATG platform can run on three servers - Oracle Weblogic, IBM Websphere, and JBoss.     There are 3 main layers in the framework -    The Dynamo Application Framework - it is the base layer that provides a development environment based on JavaBeans and JSP. There are standard ATG classes for all the common functionalities and even custom Java code can be created and assembled out of component beans by linking them through nfiguration files.  The Personalization module - This is where the content for each user is customized dynamically. This module helps control and maintain user-profiles and business rules that define what content is to be shown to a particular user. This layer also supports targeted emails. The Scenarios module - This module further enhances the capabilities of the personalization module by introducing time-sensitive, event-driven campaigns that manage interactions between site visitors and the content for a period of time. For example, limited time offers, exclusive deals for certain members etc…    ATG is an extensive framework and you need time and patience to learn it. Several big companies like Walmart, Macy’s, BestBuy, ASDA and more have their website built on ATG.",
+        "img": "https://hackr.io/blog/uploads/images/1570190916dym91rqho2.jpg"
+    },
+    {
+        "id": 23,
+        "type": "08",
+        "categories": "Framework",
+        "name": "Aiohttp",
+        "details": "Type - Asynchronous framework AIOHTTP is a Python framework that relies heavily on Python 3.5+ features, such as async & awaits. The Python framework makes use of Python's asyncio library, and is hence an asynchronous framework. In addition to being a server web framework, AIOHTTP can also serve as a client framework. It provides a request object and router to enable the redirection of queries to functions developed to handle the same.",
+        "img": "https://hackr.io/blog/media/1570190913Cdq03PdNvD.jpg"
+    },
+    {
+        "id": 24,
+        "type": "08",
+        "categories": "Framework",
+        "name": "Bottle",
+        "details": "Type - Microframework Bottle creates a single source file for every application developed using it. It is one of the best python web framework.The microframework for Python was originally developed for building APIs. Other than the Python Standard Library, Bottle has no dependencies required for crafting small web applications. One of the most important advantages of using Bottle is that it allows developers to work closer to the hardware. In addition to building simplistic personal-use apps, Bottle is an apt fit for learning the organization of web frameworks and prototyping.",
+        "img": "https://hackr.io/blog/media/1570190913ZVR3DRSZe7.jpg"
+    },
+    {
+        "id": 25,
+        "type": "01",
+        "categories": "Framework",
+        "name": "CherryPy",
+        "details": "Type - Microframework CherryPy is a popular open-source, object-oriented Python framework that follows a minimalistic approach. The micro-framework is one of the oldest Python frameworks, debuting in the June of 2002. Any CherryPy-powered web application is a standalone Python application with its own embedded multi-threaded web server and runs on any OS with support for Python. Such an app can be deployed anywhere an ordinary Python app is able to run. There is no need for an Apache server for running apps developed using CherryPy. The micro-framework allows the developer(s) to make use of any type of technology for data access, templating, et cetera.",
+        "img": "https://hackr.io/blog/uploads/images/15701909139cFK9ELHBM.jpg"
+    },
+    {
+        "id": 26,
+        "type": "02",
+        "categories": "Framework",
+        "name": "CubicWeb",
+        "details": "Type - Full-stack framework Developed and curated by Logilab, CubicWeb is a free-to-use, semantic, open-source, Python-based web framework. Based on the data model, CubicWeb requires to have the same defined in order to develop a functional application.  Unlike other popular Python frameworks that use separate views and models, CubicWeb makes use of cube. Multiple cubes are then joined together for creating an instance with the help of a database, a web server, and some configuration files.",
+        "img": "https://hackr.io/blog/uploads/images/15701909131F385ItQrj.jpg"
+    },
+    {
+        "id": 27,
+        "type": "03",
+        "categories": "Framework",
+        "name": "Dash",
+        "details": "Type - Microframework Dash is an open-source Python-based framework for building analytical web applications. It is an ideal Python framework for data scientists that aren’t much into the mechanics of web development.    Applications designed with Dash are web servers that run Flask and communicate with JSON packets via HTTP requests. Their frontend renders components using ReactJS. Flask plugins can be used for extending the capabilities of Dash.      Because Dash apps are rendered in the web browser and can be deployed to servers, they are cross-platform and mobile-ready. Dash developers are provided access to the underlying Flask instance as well as all of its configurable properties.",
+        "img": "https://hackr.io/blog/uploads/images/1570190913quzIg2iBPR.jpg"
+    },
+    {
+        "id": 28,
+        "type": "04",
+        "categories": "Framework",
+        "name": "Django",
+        "details": "Type - Full-stack framework Django is one of the most beloved web development frameworks for developing Python applications. In fact, it ended up being one of the best web development frameworks. Django framework follows the DRY (Don’t Repeat Yourself) principle.   Unlike others, the free-to-use and open-source full-stack Python framework include a grand number of built-in features rather than offering them as individual libraries. Django makes use of its ORM for mapping objects to database tables. This results in allowing the code to work across different databases as well as making it easier to migrate from one database to the other. Though Django has inherent support for MySQL, PostgreSQL, SQLite, and Oracle Database, it can support other databases via third-party drivers.",
+        "img": "https://hackr.io/blog/uploads/images/1570190913zPmaZPCDto.jpg"
+    },
+    {
+        "id": 29,
+        "type": "05",
+        "categories": "Framework",
+        "name": "Falcon",
+        "details": "Type - Microframework Aimed at rapidly building web APIs, Falcon is another widely used Python framework. Unlike other Python frameworks that require loading a lot of dependencies for building HTTP APIs, Falcon allows developers to build a cleaner design that enables HTTP and REST architectures.        As per the benchmark test conducted by Sanic, Falcon is able to handle most requests with the same hardware than all its contemporaries. The Python framework aims to have 100% code coverage. Falcon is used by big players like LinkedIn, OpenStack, and RackSpace.",
+        "img": "https://hackr.io/blog/uploads/images/1570190913mkQ4i8XlXI.jpg"
+    },
+    {
+        "id": 30,
+        "type": "06",
+        "categories": "Framework",
+        "name": "Flask",
+        "details": "Type - Microframework Available under the BSD license, Flask is another popular Python framework. Inspired by the Sinatra Ruby framework, the microframework requires Jinja2 template and Werkzeug WSGI toolkit. Thanks to its lightweight and modular design, Flask is readily adaptable. Flask allows the developers to build a solid web application foundation from where it is possible to use any kind of extensions required. The micro-framework is compatible with Google App Engine.",
+        "img": "https://hackr.io/blog/uploads/images/1570190913EgYDyCGZrh.jpg"
+    },
+    {
+        "id": 31,
+        "type": "07",
+        "categories": "Framework",
+        "name": "Giotto",
+        "details": "Type - Full-stack framework Based on the Model View Controller pattern, Giotto is an application framework for Python. In order to allow web designers, web developers, and system admins to work independently, Giotto separates Model, View, and Controller elements in order. Giotto includes controller modules that enable users to create apps on top of the web, IRC (Internet Relay Chat), and command line.",
+        "img": "https://hackr.io/blog/uploads/images/1570190913HQ4jlaXnHo.jpg"
+    },
+    {
+        "id": 32,
+        "type": "01",
+        "categories": "Framework",
+        "name": "Growler",
+        "details": "Type - Asynchronous framework Inspired by the NodeJS and the Express/Connect frameworks, Growler is a micro web framework written atop the Python's asyncio library. Unlike other conventional Python frameworks, requests in Growler aren’t handled in the framework but by passing through middleware technology. A top choice among Python frameworks for easily and quickly implementing complex applications, Growler was originally developed by its author to simply learn how to use asyncio library at its lowest levels.",
+        "img": "https://hackr.io/blog/uploads/images/1570190913HhoKuUW18j.jpg"
+    },
+    {
+        "id": 32,
+        "type": "00",
+        "categories": "Empty man",
+        "name": "Empty",
+        "details": "Hay bro.. Whats the man ............",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLzytbEbW1uJbCJL5f2GYssE8sCk6MwL8qBQ&usqp=CAU"
     }
 ]
