@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "categories": "raw",
+        "naem": "HTML",
+        "details": "basic- advanced"
+    },
+    {
+        "id": 2,
+        "categories": "design",
+        "naem": "CSS",
+        "details": "basic- advanced"
+    },
+    {
+        "id": 3,
+        "categories": "raw",
+        "naem": "JAVASCRIPT",
+        "details": "basic- advanced"
+    }
+]
