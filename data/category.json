@@ -1,34 +1,34 @@
 [
     {
-        "type": "01",
+        "category": "01",
         "name": "Most Popular"
     },
     {
-        "type": "02",
+        "category": "02",
         "name": "Most Demanded"
     },
     {
-        "type": "03",
+        "category": "03",
         "name": "Most Web-App"
     },
     {
-        "type": "04",
+        "category": "04",
         "name": "For Android"
     },
     {
-        "type": "05",
+        "category": "05",
         "name": "For IOS"
     },
     {
-        "type": "06",
+        "category": "06",
         "name": "Open sorse"
     },
     {
-        "type": "07",
+        "category": "07",
         "name": "Most Fast lern"
     },
     {
-        "type": "08",
+        "category": "08",
         "name": "Lazy Lern"
     }
 ]
