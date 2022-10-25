@@ -39,7 +39,7 @@ app.get('/course/:category', (req, res) => {
 });
 
 // only one single courses details add 
-app.get('/category/:id', (req, res) => {
+app.get('/course/category/:id', (req, res) => {
     const id = req.params.id;
     console.log(id)
     const idCourse = courses.find(course => course.id === id);
