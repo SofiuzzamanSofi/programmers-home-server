@@ -14,28 +14,31 @@ const courses = require("./data/courses.json")
 
 
 app.get('/', (req, res) => {
-    res.send("programmers-home-server,only for server, starts with successfuly");
+    res.send("programmers-home-server,only for developers successfuly");
 });
 
 
 
+// all courses 
 app.get('/courses', (req, res) => {
     res.send(courses);
 });
 
+// category headers 
 app.get('/category', (req, res) => {
     res.send(category);
 });
 
 
 
-
+// category news courses all 
 app.get('/course/:category', (req, res) => {
     const category = req.params.category;
     const categoryCourse = courses.filter(course => course.category === category);
     res.send(categoryCourse);
 });
 
+// only one single courses details add 
 app.get('/category/:id', (req, res) => {
     const id = req.params.id;
     console.log(id)
@@ -44,11 +47,10 @@ app.get('/category/:id', (req, res) => {
 });
 
 
-
 // language and framework 
 app.get('/maincategory/:maincategory', (req, res) => {
     const mainCategory = req.params.maincategory;
-    const mainCategoryCourse = courses.filter(course => course.langORframe === mainCategory);
+    const mainCategoryCourse = courses.filter(course => course.mainCategory === mainCategory);
     res.send(mainCategoryCourse);
 });
 
