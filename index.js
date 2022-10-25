@@ -6,12 +6,18 @@ app.use(cors());
 
 
 
+
 const category = require('./data/category.json')
 const courses = require("./data/courses.json")
+
+
+
 
 app.get('/', (req, res) => {
     res.send("programmers-home-server,only for server, starts with successfuly");
 });
+
+
 
 app.get('/courses', (req, res) => {
     res.send(courses);
@@ -20,6 +26,8 @@ app.get('/courses', (req, res) => {
 app.get('/category', (req, res) => {
     res.send(category);
 });
+
+
 
 
 app.get('/course/:category', (req, res) => {
@@ -34,6 +42,18 @@ app.get('/category/:id', (req, res) => {
     const idCourse = courses.find(course => course.id === id);
     res.send(idCourse);
 });
+
+
+
+// language and framework 
+app.get('/maincategory/:maincategory', (req, res) => {
+    const mainCategory = req.params.maincategory;
+    const mainCategoryCourse = courses.filter(course => course.langORframe === mainCategory);
+    res.send(mainCategoryCourse);
+});
+
+
+
 
 app.listen(port, () => {
     console.log(`programmers-home-server running ok ${port}`);
